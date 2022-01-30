@@ -18,6 +18,7 @@
             <a href="#experience">Experience</a>
             <a href="#education">Education</a>
             <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
         </div>
         <a class="icon">
             <i class="fa fa-bars"></i>
@@ -28,7 +29,7 @@
         <div class="cover-cta">
             <div class="title">Jonathan A. Daniels</div>
             <div class="contact">
-                <a href="mailto:itsjonathandaniels@gmail.com" target="blank">
+                <a href="#contact">
                     <i class="fa fa-envelope"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/itsjonathandaniels" target="blank">
@@ -161,6 +162,30 @@
             <img class="skills-logo Atlassian-logo" src="images/atlassianLogo.svg" alt="Atlassian Logo" srcset="">
         </div>
     </div>
+
+    <form id="contact" class="contact-form" name="contact" data-netlify-recaptcha="true" netlify>
+        <h1 class="contact-title">Contact</h1>
+        <div class="field">
+            <input type="text" name="fullname" id="fullname" placeholder="Stacia Porter" required>
+            <label for="fullname">Name*</label>
+        </div>
+        <div class="field">
+            <input type="email" name="email" id="email" placeholder="stacia.porter@example.com" required>
+            <label for="email">Email*</label>
+        </div>
+        <div class="field">
+            <input type="text" name="subject" id="subject"
+                placeholder="Career Opportunity, Website or App Request, General Inquiry">
+            <label for="subject">Subject</label>
+        </div>
+        <div class="field">
+            <textarea name="message" id="message" placeholder="Hello, I would like to work with you." rows="5"
+                required></textarea>
+            <label for="message">Message*</label>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <button class="button" type="submit">Send</button>
+    </form>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
