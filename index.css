@@ -206,6 +206,13 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.recaptcha {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
 .skills {
     padding-top: 2rem;
 }
